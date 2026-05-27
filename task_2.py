@@ -185,7 +185,7 @@ def main():
     print("ВЕРОЯТНОСТНЫЕ ХАРАКТЕРИСТИКИ ОЧЕРЕДИ")
     print("-" * 70)
     print(f"При kopt = {best_k} вероятность того, что в очереди находится не более {N_QUEUE} заявок:")
-    print(f"    P(очередь ≤ {N_QUEUE}) = {prob:.3f} ({prob*100:.1f}%)")
+    print(f"    P(очередь <= {N_QUEUE}) = {prob:.3f} ({prob*100:.1f}%)")
 
     # 9. Построение графика
     plot_cost(k_vals, C_vals, best_k, lambda_rate, ALPHA)
